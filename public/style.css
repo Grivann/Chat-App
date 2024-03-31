@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: royalblue;
+}
+
+button {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #007bff;
+}
+
+.chats {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chats p {
+    margin: 10px 0;
+    color: #333;
+}
+
+.message {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 15px;
+}
+
+.message p {
+    margin-bottom: 5px;
+}
+
+.message button {
+    background-color: #28a745;
+    color: white;
+    margin: 5px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.message button:hover {
+    background-color: #218838;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+@media only screen and (max-width: 768px) {
+    .chats {
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .chats {
+        margin: 10px auto;
+        border-radius: 0;
+    }
+}
